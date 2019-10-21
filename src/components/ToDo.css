@@ -5,17 +5,26 @@
 .todo span {
     margin: 2px;
     color: red;
+    font-size: 30px;
 }
-.todoItem{
+
+.items{
+    border: 2px solid black; /* Параметры границы */
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 2px;
+}
+.todoForm{
     width: 100%;
     height: 40px;
     text-align: center;
 }
-.todoItem input{
+.todoForm input{
     width: 200px;
     height: 30px;
 }
-.todoItem button{
+.todoForm button{
     width: 80px;
     height: 29px;
 }

@@ -24,15 +24,19 @@ class ToDoItem extends React.Component {
 
 
     render() {
+
         return (
-            <form onSubmit={this.handleSubmit} className="todoItem">
-                <input className="input"
+            <form onSubmit={this.handleSubmit} id="todoForm">
+                <input id="input"
                        name="text"
                        value={this.state.text}
                        onChange={this.handleChange}
                        placeholder="...todo"/>
+
                 <button onClick={this.handleSubmit}>Add to do</button>
+
             </form>
+
 
         );
     }
